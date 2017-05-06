@@ -8,13 +8,16 @@ body {
 .fa-twitter {
     color: white;
     float: right;
+    margin-top: 30px;
+    margin-right: 10px;
     
 }
 .fa-facebook {
     color: white;
     float: right;
-    margin-right: 30px;
+    margin-right: 47px;
     margin-left: 30px;
+    margin-top: 30px;
 }
 nav {
     font-size: 32px;
@@ -24,13 +27,23 @@ nav {
     display: flex;
     justify-content: space-around;
 	align-items: center;
-    padding: 20px;
+    padding: 30px;
 	 
+}
+.mobile-nav {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.hamburger {
+    margin-top: 30px;
+    margin-left: 30px;
 }
 .center {
     text-align: center;
     color: white;
-    margin-top: 200px;
+    margin-top: 180px;
 }
 .port-name {
     font-size: 59px;
@@ -44,6 +57,7 @@ img {
     display: flex;
     justify-content: space-around;
 	align-items: flex-end;
+    margin-top: 140px;
     
 }
 .arrow {
@@ -64,10 +78,11 @@ img {
 
 @media (min-width: 700px)
 {
-.fa {
-    display: none;
-}  
+ 
 .hamburger {
     display: none;
-}  
+} 
+#facebook, #twitter {
+    display: none;  
+}
 }
