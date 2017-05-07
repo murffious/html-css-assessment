@@ -40,13 +40,14 @@ nav {
     margin-top: 30px;
     margin-left: 30px;
 }
+/*------Center Section------*/
 .center {
     text-align: center;
     color: white;
     margin-top: 180px;
 }
 .port-name {
-    font-size: 59px;
+    font-size: 70px;
 }
 img {
     height: 50px;
