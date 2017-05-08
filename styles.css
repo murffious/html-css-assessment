@@ -28,6 +28,7 @@ nav {
     justify-content: space-around;
 	align-items: center;
     padding: 30px;
+    font-family: 'Ubuntu', sans-serif;
 	 
 }
 .mobile-nav {
@@ -45,9 +46,13 @@ nav {
     text-align: center;
     color: white;
     margin-top: 180px;
+    font-family: 'Ubuntu', sans-serif;
 }
 .port-name {
-    font-size: 70px;
+    font-size: 90px;
+}
+.subtext {
+    font-size: 28px;
 }
 img {
     height: 50px;
@@ -58,7 +63,7 @@ img {
     display: flex;
     justify-content: space-around;
 	align-items: flex-end;
-    margin-top: 140px;
+    margin-top: 170px;
     
 }
 .arrow {
